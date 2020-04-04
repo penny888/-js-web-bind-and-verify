@@ -23,7 +23,7 @@
             (function (i) {
                 // 判断元素类型
                 var canInput;
-                if (targetElements[i].value === '') {
+                if (Object.prototype.toString.call(targetElements[i].value) === '[object String]') {
                     canInput = true;
                 }
                 // 获取元素绑定变量
