@@ -1,2 +1,1 @@
-# -js-web-bind-and-verify
-two-way binding and form verification js demo
+# JS-MVVM-AND-FORM-VERIFY
